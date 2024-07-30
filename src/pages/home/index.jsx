@@ -49,7 +49,7 @@ export default function App() {
             />
        </section>
 
-       <section id='projetos' className='flex flex-wrap justify-center items-center w-screen py-36 bg-fundoBox gap-72'>
+       <section id='projetos' className='flex flex-wrap justify-center items-center w-screen py-36 bg-fundoBox gap-72 md:px-9'>
 
             <BoxProjeto 
                 Titulo="Horizon Cloud"

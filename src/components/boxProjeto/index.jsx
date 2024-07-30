@@ -6,7 +6,7 @@ import { useState } from "react"
 export default function BoxProjeto({Titulo, Desc, DescButton, LinkButton}) {
     const [bg, setBg] = useState(false)
 
-    function mostrarItens(){
+    const mostrarItens = () => {
         setBg(true)
     }
 
