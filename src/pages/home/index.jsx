@@ -7,10 +7,10 @@ import hcloud from '../../images/hcloud.png'
 export default function App() {
   return (
     <div className="bg-fundo flex flex-col justify-center">
-       <section className='w-screen h-screen flex flex-row justify-between items-center px-72'>
-          <div className=' flex flex-col justify-center gap-5"'>
-              <h1 className='text-8xl mb-1'>Davi Souza Santos</h1>
-              <h2 className='text-5xl mb-8'>Developer WEB FullStack</h2>
+       <section className='w-screen h-screen flex flex-col md:gap-4 justify-evenly items-center lg:flex-row lg:justify-evenly  md:text-4xl'>
+          <div className=' flex flex-col justify-center items-center gap-0 lg:gap-5 lg:items-left'>
+              <h1 className='text-4xl mb-1 lg:text-8xl md:text-4xl'>Davi Souza Santos</h1>
+              <h2 className='text-2xl mb-8 lg:text-5xl'>Developer WEB FullStack</h2>
 
             <ButtonHome 
                 desc="Saiba Mais"
@@ -19,7 +19,7 @@ export default function App() {
           </div>
 
           <div className=''> 
-            <img className='w-96 rounded-full border ' src={linkedin} alt="img-capa" />
+            <img className='w-48 rounded-full border lg:w-96' src={linkedin} alt="img-capa" />
           </div>
        </section>
 
